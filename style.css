@@ -1,8 +1,68 @@
-body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRht38PQbc7hzdgzgsJ8dmj2J1uWLrnyTX9rw&usqp=CAU");
-    background-size: 100%;
-
-
-    font-size: 60;
-    padding: 150px;
+body{text-align: center;
+}
+#pic{
+ margin-bottom: 50px;
+     
+border-radius: 50%;
+    width: 200px;
+}
+#welcome { position: absolute;
+    height: 800px; color: #FFFFFF;
+    left: 0; top: 0;
+    bottom: 0; right: 0;
+    opacity: 0.93;
+    background: linear-gradient( #6623eb 0%,  #c307f7 100%);
+    display: table; width: 100%;
+    height: 100%; z-index: 9
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+        
+}
+#name{
+    font-family: 'Pacifico', cursive;
+font-size: 45px;
+}
+#line { height: 6px;
+    background-color:#000;
+    width: 70px;
+    margin: 8px auto;
+}
+p { max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+#intro { display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+.menu{
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 100px;
+    top: 10px;
+    cursor: pointer;
+    right: 30px;
+    list-style: none;
+    
+    
+}
+.links{
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: right;
+    
+    
+}
+.links:hover{
+    background-color: yellow;
 }
