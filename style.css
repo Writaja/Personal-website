@@ -1,68 +1,110 @@
-body{text-align: center;
-}
-#pic{
- margin-bottom: 50px;
-     
-border-radius: 50%;
-    width: 200px;
-}
-#welcome { position: absolute;
-    height: 800px; color: #FFFFFF;
-    left: 0; top: 0;
-    bottom: 0; right: 0;
-    opacity: 0.93;
-    background: linear-gradient( #6623eb 0%,  #c307f7 100%);
-    display: table; width: 100%;
-    height: 100%; z-index: 9
-}
-#bio{
-    padding: 50px;
+body {
     text-align: center;
-    font-size: 42px;
-        
+    background: linear-gradient(#f569f0, #f723a9, #fc0a6f);
+
 }
-#name{
-    font-family: 'Pacifico', cursive;
-font-size: 45px;
+
+h1 {
+    text-shadow: 3px;
 }
-#line { height: 6px;
-    background-color:#000;
+
+img {
+    border-radius: 20px;
+
+}
+
+.link {
+    float: right;
+
+    padding-top: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    color: #4A148C;
+
+}
+
+.link:hover {
+    background-color: #FFFF00;
+}
+
+a {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    text-align: center;
+}
+
+iframe {
+    margin: 50px;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: orange;
+
+}
+
+.gameimg {
+    height: 300px;
+    width: 300px;
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: hotpink;
+
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+}
+
+#game img {
+    transition: transform .2s;
+
+}
+
+#game img:hover {
+
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
     width: 70px;
     margin: 8px auto;
 }
-p { max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
-}
-#intro { display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: bottom;
-}
-.menu{
-    font-family: sans-serif;
-    position: absolute;
-    z-index: 100px;
-    top: 10px;
-    cursor: pointer;
-    right: 30px;
-    list-style: none;
-    
+.carousel-inner img {
+  width: 300px;
+    height: 300px;
     
 }
-.links{
-    font-family: fantasy;
-    font-size: 20px;
-    color: white;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    float: right;
+#mycarousel {
     
-    
-}
-.links:hover{
-    background-color: yellow;
+    background-color: deeppink;
 }
